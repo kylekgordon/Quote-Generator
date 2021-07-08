@@ -19,13 +19,14 @@ body {
 .footer {
   background-color: rgba(255, 255, 255, 0.692);
   background-size: 20px;
-  position: fixed;
+  position: relative;
   font-family: 'Roboto', sans-serif;
-  left: 40%;
+  align-items: center;
   bottom: 0;
-  width: 20%;
+  min-width: 30%;
   color: rgb(0, 0, 0);
   text-align: center;
+  margin: 10px;
 }
 
 .container {
